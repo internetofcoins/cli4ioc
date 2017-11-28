@@ -1,0 +1,14 @@
+#!/bin/sh
+OLDPATH=$PATH
+WHEREAMI=`pwd`
+export PATH=$WHEREAMI/node/bin:"$PATH"
+NODEINST=`which node`
+TERM=xterm-256color
+
+ec=255
+while [ $ec -eq 255 ] ; do
+  node lib/main.js $@
+  ec=$?
+done
+
+PATH=$OLDPATH
