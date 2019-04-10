@@ -2,6 +2,10 @@
 
 # Internet of Coins command line wallet
 
+
+## NOTICE: We have migrated. Find our latest code here: https://github.com/hybrix-io
+
+
 ## Overview
 
 This repository contains the Internet of Coins <i>cli4ioc</i> command line wallet.
